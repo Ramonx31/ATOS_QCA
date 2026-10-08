@@ -1,0 +1,2574 @@
+{
+  "version": 2,
+  "sources": [
+    "Centro de Custo por Cluster Geral.xlsx",
+    "USUÁRIOS_GESTORES_2026 2.xlsx"
+  ],
+  "matchRule": "Nome do Centro de Custo normalizado por acentos, caixa e espaços; sem correspondências aproximadas.",
+  "centers": [
+    {
+      "id": "d5dd64b0d89b3a1a",
+      "name": "AIG SEGUROS",
+      "manager": "Ingrid Gadelha",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "6ace9dad55e06132",
+          "name": "AIG Seguros",
+          "managers": [
+            "Ingrid Gadelha de Andrade Neves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aaecc6fa2a45bab4",
+      "name": "ALPHAVILLE",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "2b785b902f5d291d",
+          "name": "Alphaville",
+          "managers": [
+            "Emília Moreira Belo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33ccce686255aa5d",
+      "name": "AMBCONS",
+      "manager": "Tiago Lima",
+      "director": "MANUELA MOURA",
+      "cluster": "Consultiva",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "e8125bf1aeb27364",
+          "name": "Alphaville - Ambiental",
+          "managers": [
+            "Tiago Lopes de Andrade Lima"
+          ]
+        },
+        {
+          "id": "15252057b1656e51",
+          "name": "Ambiental - Diversos",
+          "managers": [
+            "Tiago Lopes de Andrade Lima"
+          ]
+        },
+        {
+          "id": "642f4a3040b683a9",
+          "name": "Ambiental Diversos - Consultivo",
+          "managers": [
+            "Tiago Lopes de Andrade Lima"
+          ]
+        },
+        {
+          "id": "ba9cb420e902c773",
+          "name": "Estudos Ambientais - Consultivo",
+          "managers": [
+            "Tiago Lopes de Andrade Lima"
+          ]
+        },
+        {
+          "id": "75c7ccb23323d264",
+          "name": "Licenciamento Ambiental - Consultivo",
+          "managers": [
+            "Tiago Lopes de Andrade Lima"
+          ]
+        },
+        {
+          "id": "8c86e4df8542032b",
+          "name": "TIM - Ambiental",
+          "managers": [
+            "Tiago Lopes de Andrade Lima"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67cc1d14981b87e1",
+      "name": "AMBCONT",
+      "manager": "Tiago Lima",
+      "director": "MANUELA MOURA",
+      "cluster": "Middle",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "b7ab7a7cb9635bdb",
+      "name": "AMBEV CIVEL",
+      "manager": "Ingrid Gadelha",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "acf50055feb43159",
+          "name": "Ambev Cível",
+          "managers": [
+            "Ingrid Gadelha de Andrade Neves"
+          ]
+        },
+        {
+          "id": "b0a25a50ba2327b7",
+          "name": "Energisa - Negociação",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3891d27330e46efe",
+      "name": "AMBEV TRIBUTARIO",
+      "manager": "Ricardo Varejão",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "da287bbf303d0000",
+          "name": "Ambev - Tributário",
+          "managers": [
+            "Deivisson Costa Gomes",
+            "José Ricardo do Nascimento Varejao"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e202e4354a57051e",
+      "name": "AMZ",
+      "manager": "Diogo Furtado",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "066fb3762af15c32",
+          "name": "Amazon",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "1ac4564a7713a349",
+          "name": "Amazon - Procon SP",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "9c7e9fa60e1953a5",
+          "name": "Amazon - Regulatório",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e403439d195b0d5f",
+      "name": "ANIMA",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "225a1025744154c6",
+          "name": "Anima Educação",
+          "managers": [
+            "Paula Haeckel Times de Carvalho Almeida Gomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "326f91484a835568",
+      "name": "APL",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "4304553b48f2db4f",
+          "name": "Apple - Acessórios",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "2e00e35c7d4af317",
+          "name": "Apple - Alimentos",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "9cd1d4f347f7d399",
+          "name": "Apple - Regular",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "04e47f997fea7ee3",
+          "name": "Fotótica",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "205144103ef16c48",
+      "name": "BANCO BMG",
+      "manager": "Fernanda Oliveira",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "2a46a39198edd74a",
+          "name": "Banco Pine",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        },
+        {
+          "id": "6cd17f9ed91d00e6",
+          "name": "BMG - Aceite Patrocínio",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        },
+        {
+          "id": "f29701cfb934669a",
+          "name": "BMG - Projeto Advogado Reincidente",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f583f3fdf7950acf",
+      "name": "BANCO BONSUCESSO",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "43b6ad046b1320d5",
+          "name": "Bonsucesso",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "53d8105e9e36578b",
+      "name": "BANCO CETELEM",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "87124951eddc513d",
+          "name": "Banco Inbursa",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "3bae894cd1028ccf",
+          "name": "Cetelem - Massificados",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "417487b5b8899ec2",
+          "name": "Cetelem - OrgFis",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "eabfdeabccce5770",
+          "name": "Cetelem - OrgFis Procon",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "0d26187d6f6ec906",
+          "name": "Cetelem - PE",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "1b44e50c767decc1",
+          "name": "Consumidor - BA",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "51432e36de1420a1",
+      "name": "BANCO INTER",
+      "manager": "Alana Lopes",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "934d51737e48e945",
+          "name": "Inter",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "65a1e4b2e681b0d3",
+          "name": "Inter - Consignado",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "4d29833be741995c",
+          "name": "Inter - Estratégico",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "069ea47fad492a71",
+      "name": "BANCO VOLKSWAGEN",
+      "manager": "Francisco Lelis",
+      "director": "MANUELA MOURA",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "24f9c7e62af212c3",
+          "name": "Banco Traton Brasil",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "3d7f007b80090ba3",
+          "name": "Banco Volks",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "afad97756026d6db",
+          "name": "Banco Volks - Fraude",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "a226de861284ba3d",
+          "name": "Banco Volks - Procon",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "345b04fa996ef3cb",
+          "name": "Banco Volkswagen",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "0a425269a2203291",
+          "name": "LM Mobilidade",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "6498262a4ef6bc81",
+          "name": "LM Mobilidade - Procon",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "54255ac9755a8d42",
+      "name": "BRADESCO SEGUROS",
+      "manager": "Thiago Pessoa",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "c4de7ad88a2c4474",
+          "name": "Auto – Bradesco",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        },
+        {
+          "id": "a0b0c4fe17ded758",
+          "name": "Saúde - Bradesco",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        },
+        {
+          "id": "c420ed68d1b3ad5c",
+          "name": "Saúde - Bradesco (Não Assistencial)",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        },
+        {
+          "id": "4d19660531ed20dc",
+          "name": "Vida, Cap. e Prev. – Bradesco",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19730b523f8c644c",
+      "name": "C6 BANK",
+      "manager": "Fernanda Oliveira",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "e07b240b0143c7f1",
+          "name": "C6 - Alta Renda",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        },
+        {
+          "id": "0ac9521f77a1eb72",
+          "name": "C6 - Auto",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        },
+        {
+          "id": "815857e6b875029a",
+          "name": "C6 - Bank",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        },
+        {
+          "id": "a1c2fa4144067c66",
+          "name": "C6 - Consig",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        },
+        {
+          "id": "295b42cb90dc27b5",
+          "name": "C6 - Super",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a5708e02f4edec80",
+      "name": "CAIXA SEGURADORA",
+      "manager": "Eduardo Fornellos",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "8726c0b5e29e974a",
+          "name": "Caixa Seguradora - BA",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "8a38cc9af1d920ec",
+          "name": "Caixa Seguradora - CNP",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "a5c4b0c6eede101d",
+          "name": "Caixa Seguradora - CNP Capitalização",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "84b2e0f9e9471f1b",
+          "name": "Caixa Seguradora - CNP Consórcios",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "dde4620a51a71232",
+          "name": "Caixa Seguradora - CVP",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "486bc46bd391cc77",
+          "name": "Caixa Seguradora - Outros Ramos",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "37066a5a709ceb1e",
+          "name": "Caixa Seguradora - SFH",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "89232de8e6292a50",
+          "name": "Caixa Seguradora - XS1",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "5cca9ebf6915bbb3",
+          "name": "Caixa Seguradora - XS2",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01da385b8eb766ec",
+      "name": "CARDIF",
+      "manager": "Catarina Alves",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "60c1620fd177088b",
+          "name": "Berkley",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "7bd05725c993f8e7",
+          "name": "Cardif",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f2292655e67083ef",
+      "name": "CARREFOUR",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "9a444e7e7be5f25d",
+      "name": "CCB MASSIFICADO",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "963fff7c86fa356e",
+          "name": "CCB - Massificados",
+          "managers": [
+            "Fernanda Rafaella Oliveira de Carvalho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fd0f5c4a94c0810c",
+      "name": "CELPE",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "4c3ed053a0765056",
+          "name": "Celpe - Estratégico",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "56e111afb966c8f5",
+          "name": "Celpe - JEC",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "b7362782d37f45c2",
+          "name": "Celpe - Justiça Comum",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "01a1bb363248c09e",
+          "name": "Smart Fit - Regulatório",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5bc5a4b3ece7560f",
+      "name": "CNU",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "cfa1e78ae470de66",
+          "name": "CNU",
+          "managers": [
+            "Paula Haeckel Times de Carvalho Almeida Gomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f0b7007f62f9561b",
+      "name": "CONTENCIOSO 10",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "a2e80a31f3f9cc07",
+          "name": "Banco Master S/A",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3aff5782546dbc24",
+      "name": "CONTENCIOSO 2",
+      "manager": "Rostand Santos",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "b740604cffd2e123",
+          "name": "Aliança",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "7d2704333ca3d3f7",
+          "name": "Allianz",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "806c77238ded75a5",
+          "name": "Caixa Seguradora - DPVAT",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "9a13a33f923df724",
+          "name": "Capemisa",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "fb0b2ea78c4b1d2b",
+          "name": "CT2 - Coordenação",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "7334c1ae9f81c609",
+          "name": "Mongeral",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "935900df2041f48c",
+          "name": "Pier",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "5b56916fe2f96724",
+          "name": "Sicoob",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "b895a2feb37a1265",
+          "name": "Vida, Cap. e Prev. – SulAmérica",
+          "managers": [
+            "Jurandy Soares de Moraes Neto",
+            "Rostand Inácio dos Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18554e97eb03298f",
+      "name": "CONTENCIOSO 4",
+      "manager": "Francisco Lelis",
+      "director": "MANUELA MOURA",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "618b1dc3b267c3f6",
+          "name": "CT4 - Célula 1",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "132094604caf0047",
+          "name": "CT4 - Célula 2",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "059f6f4f7ef70d29",
+          "name": "CT4 - Célula 2 - Legal",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "a5d9536f83a88d63",
+          "name": "CT4 - Célula 3",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "6749df06978978da",
+          "name": "CT4 - Célula 3 - API",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "f112edaa5c03505b",
+          "name": "CT4 - Célula 4",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "6e91ecbf8b1b9363",
+          "name": "CT4 - Célula 5",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "6ddea4b99e97c2c9",
+          "name": "CT4 - Célula 6",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "47aa7bd063b8e22a",
+          "name": "CT4 - Célula 7",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63c2dcce42b205e2",
+      "name": "CONTENCIOSO 4 ESTRATEGICO",
+      "manager": "Francisco Lelis",
+      "director": "MANUELA MOURA",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "6f0d2d68b5501b3f",
+          "name": "CT4 - Honorários de Sucumbência QCA",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "74ad33f525ee89ad",
+      "name": "CONTENCIOSO 4.2",
+      "manager": "Francisco Lelis",
+      "director": "MANUELA MOURA",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "330e77d51c1fa47f",
+      "name": "CONTENCIOSO 5",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "4471ccb1ba16647a",
+          "name": "CT4 - Estratégico",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1f1ead460a683d13",
+      "name": "CREDSYSTEM",
+      "manager": "Catarina Alves",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "b91eaa4e2fec9f32",
+          "name": "CredSystem",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "ccb84bf00843bfbc",
+          "name": "Credsystem - Administrativo",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "894f805d1aafe468",
+      "name": "CT12 GOL",
+      "manager": "Catarina Alves",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "935d2e32d89b7689",
+          "name": "GOL",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "07866ebc53dc9d04",
+          "name": "GOL - Estratégico",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "c920951212025521",
+          "name": "GOL - Intercontinentais",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "429c3ea78668a28e",
+          "name": "Smiles",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7cf4d6abe68ca50d",
+      "name": "CT14 ELE",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "7b5ac3525f7c8e32",
+          "name": "Axia Energia",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "11593c91c9296ecb",
+          "name": "Carrefour - Middle",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "a5b58d9542714912",
+          "name": "Middle Diversos",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "eeaa09d248b13601",
+          "name": "Nio - Middle",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2d350d8e4838d0c",
+      "name": "CT15 LNV",
+      "manager": "Catarina Alves",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "526ddad500d82e4e",
+          "name": "Digibrás",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "1673ba1ce3a681ed",
+          "name": "Lenovo - Service",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "a296fe1520abdf66",
+          "name": "Lenovo - WEB",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13c051c8e6698cb0",
+      "name": "CT16 CBA",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "6acad7645f7d5809",
+          "name": "BANQ-VIA",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "bab138fb9ec2833d",
+          "name": "Império",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "ef0d53c3c91ceb70",
+          "name": "Via Varejo",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "28b546cd6c723ea0",
+          "name": "Via Varejo - Regulatório",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "080015ed869e4cd2",
+      "name": "CT17 DM",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "73025164f583ff3c",
+          "name": "Sonova",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bc184a077d5a468d",
+      "name": "CT18 POR",
+      "manager": "Camila Rego",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "00442b02b0eb9393",
+          "name": "Isar",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "7ac7bd23e68edd3a",
+          "name": "Porto Seguro",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "2fe2101bd6a0b777",
+          "name": "PortoSeg",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "69b94ef842bd9abb",
+          "name": "Procon Porto",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2c1288295eac91cc",
+      "name": "CT19 VWS",
+      "manager": "Camila Rego",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "b433f758c2b84793",
+          "name": "Bluefit",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "a0a3f56a480c7854",
+          "name": "Hyundai",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "1d29d51050171964",
+          "name": "MAN",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "c91992650135f53e",
+          "name": "Selfit",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "8709e9efcb1a9482",
+          "name": "Volkswagen",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "aa5733cf50d3a82d",
+          "name": "Zamp",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1c63e2a1593091d1",
+      "name": "CT20 BMER",
+      "manager": "Marconi Darce",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "2cbb5d603723db93",
+          "name": "Banco Mercedes-Benz",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "2e78d485d1ab6cd3",
+          "name": "REC - BA - Mercedes",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior",
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "f18cdbf1d6cfd957",
+          "name": "REC - JIVE",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior",
+            "Marconi Darce Lúcio Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3aa8cfa13240b2ef",
+      "name": "CT21 OLX",
+      "manager": "Camila Rego",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "5290ca5cd6cc3b12",
+          "name": "OLX",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e31c38119752174",
+      "name": "CT22 ENC",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "c1d0f4762869591b",
+          "name": "Damha Cível",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "b3e70241cd170c65",
+          "name": "Encalso Cível",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5acaa31a47c0f867",
+      "name": "CT23 CELC",
+      "manager": "Marconi Darce",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "75ed75f23118c110",
+          "name": "Cartos",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "f3f0d26649c193ef",
+          "name": "Cartpanda",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "061a46ce869774e9",
+          "name": "Celcoin",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "4b2efd7e450ae5bd",
+          "name": "UY3",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4ee26f5613ed96c9",
+      "name": "CT24 ALE",
+      "manager": "Catarina Alves",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "61718a75cbeb3a5d",
+          "name": "Extrafarma",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "d2403205ae81d2b2",
+          "name": "Klabin S.A",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "0fe54403f41c6af9",
+          "name": "Loreal",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo",
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "bdee42b4b7ef2110",
+          "name": "Ressarci - Movida",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "281ac6a77ee23fa7",
+          "name": "Ressarci - Totvs",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "f0a0f0602c87a658",
+          "name": "Ressarcimento 2",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "907f5a6d4c18f222",
+          "name": "Totvs",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cd480aefde7323c",
+      "name": "CT25 BRA",
+      "manager": "Manoel Paulino",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "f91df6ec2264703c",
+          "name": "Banco Bradesco",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "5b8337972754548f",
+          "name": "Banco Bradesco - Estratégico",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "5e4dad21faf55524",
+          "name": "Bradesco - OrgFis",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10ef430fc456c20b",
+      "name": "CT26 AMIL",
+      "manager": "Thiago Pessoa",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "6aeed25bd7fffc88",
+          "name": "Amil",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a565eb2f7d7b234c",
+      "name": "CT27 BBC",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "9e9669c93cad6986",
+          "name": "Banco BBC",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "b68c09732308f17b",
+          "name": "Wepay",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c533056fe198e3bb",
+      "name": "CT28 SUH",
+      "manager": "Eduardo Fornellos",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "4f28fcf372f99446",
+          "name": "Suhai Seguradora",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb861e163c080daf",
+      "name": "CT29 SBF",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "4a140e6238308d03",
+          "name": "Grupo SBF",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "97322aba946314b9",
+      "name": "CT31 EBANX",
+      "manager": "Marconi Darce",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "66bf948ec1f4a3a2",
+          "name": "Asaas",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "60c0c410a586c5c3",
+          "name": "Ebanx",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "6ac735fd76bbe8e4",
+          "name": "Olist Ltda",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "057eca64539bda8f",
+      "name": "CT32 SANT",
+      "manager": "Manoel Paulino",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "6c54b55a16915d73",
+      "name": "CT5 GM",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "c79236d89f005b07",
+          "name": "DESATIVADO - Olist",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "5cd50d05a7e2bf5a",
+          "name": "General Motors",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "144048366c810ab5",
+          "name": "Geradoras de Energia",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "83a7c05dfac348ab",
+          "name": "Ideal Trends",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ccc8da4f9506ed5",
+      "name": "CT6 PRU",
+      "manager": "Catarina Alves",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "edf0f9bdb04c660b",
+          "name": "Generali Brasil Seguros S.A.",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "47c108b91e551b7f",
+          "name": "Itaú Seguros",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "8f49b12860014c70",
+          "name": "Kavak",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "45f5c50496147408",
+          "name": "Prudential",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "cd6e0be333c1f6a0",
+          "name": "QUOD",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6edafd5559420ebc",
+      "name": "CT7 SSUN",
+      "manager": "Catarina Alves",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "3040f8c9d1884e27",
+          "name": "Samsung - Regulatório",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4e299aebc9dc6f11",
+      "name": "CT8 MOV",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "c3750b90cffad8cf",
+          "name": "CT8 - Estratégico",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "74f71a2505c3bcb2",
+          "name": "Movida",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "8b47c999f677f10f",
+          "name": "Movida - Seminovos",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "069be5cea1d144f9",
+          "name": "Tenda Atacado",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "93747c2822820a1e",
+      "name": "CT9 RTRN",
+      "manager": "Diogo Furtado",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Bancário",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "c37c1cbb7cb5fc10",
+          "name": "FUNDO GARANTIDOR DE CREDITOS - FGC",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "1ccba6f6dc7d7d82",
+          "name": "Ipanema X",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "cce11b0b1ca996e6",
+          "name": "Return",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19e9b63bc7840666",
+      "name": "CVC",
+      "manager": "Marconi Darce",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "5ef6b6c932242431",
+          "name": "CVC",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d759855a96a51bb1",
+      "name": "DIREITO PUBLICO",
+      "manager": "Ricardo Varejão",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "50adf6efd1443700",
+      "name": "EMP - CONTRATUAL",
+      "manager": "Camila Oliveira",
+      "director": "MANUELA MOURA",
+      "cluster": "Consultiva",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "3b12c375e69aeb89",
+      "name": "EMP - SOCIETARIO",
+      "manager": "Leonardo Maciel",
+      "director": "MANUELA MOURA",
+      "cluster": "Consultiva",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "a5c694a1dd3b9208",
+      "name": "EMPRESARIAL BAHIA",
+      "manager": "Milena Gila",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "369067ebcd5200b6",
+      "name": "EQUIPE PARAIBA",
+      "manager": "Ingrid Gadelha",
+      "director": "CARLOS HARTEN",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "f2b8097dcc966b5a",
+          "name": "ONS",
+          "managers": [
+            "Ingrid Gadelha de Andrade Neves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "91995aa25c5333ab",
+      "name": "ESTRATEGICO BRU",
+      "manager": "Caio Costa",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Estratégico",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "420b117cf92d863d",
+      "name": "ESTRATEGICO CT2",
+      "manager": "Leonardo Cocentino",
+      "director": "CARLOS HARTEN",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Estratégico",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "8b5dd751e2f81e7c",
+          "name": "CT2 - Diversos",
+          "managers": [
+            "Leonardo Montenegro Cocentino"
+          ]
+        },
+        {
+          "id": "2f3ce7e4f231adfc",
+          "name": "CT2 - Santander",
+          "managers": [
+            "Leonardo Montenegro Cocentino"
+          ]
+        },
+        {
+          "id": "9a2e72c06c97b04d",
+          "name": "JP Morgan - CT2 Estratégico",
+          "managers": [
+            "Leonardo Montenegro Cocentino"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "75ddbb813cc7d611",
+      "name": "IMOBCONS",
+      "manager": "Emilia Belo",
+      "director": "MANUELA MOURA",
+      "cluster": "Consultiva",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "46f29d1b95dd1442",
+          "name": "Imob - Consultivo",
+          "managers": [
+            "Emília Moreira Belo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd504c18246f0579",
+      "name": "IMOBCONT",
+      "manager": "Emilia Belo",
+      "director": "MANUELA MOURA",
+      "cluster": "Middle",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "5adee326a71f7368",
+          "name": "Imobiliário",
+          "managers": [
+            "Emília Moreira Belo"
+          ]
+        },
+        {
+          "id": "78afe3071712537e",
+          "name": "Sertenge | Gráfico - Imobiliário",
+          "managers": [
+            "Emília Moreira Belo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15e27176e4dc72c1",
+      "name": "IMOBCTESTR",
+      "manager": "Emilia Belo",
+      "director": "MANUELA MOURA",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "950782b5a705a907",
+          "name": "Alphaville - Estratégico",
+          "managers": [
+            "Emília Moreira Belo"
+          ]
+        },
+        {
+          "id": "67330f0fad4f0276",
+          "name": "Imobiliário - Contencioso Estratégico",
+          "managers": [
+            "Emília Moreira Belo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a72cf63d0b284f6",
+      "name": "ITAU UNIBANCO",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "a29753dde73b8cf0",
+          "name": "Itaú",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "295f084f31511e56",
+          "name": "Itaú Imobiliário",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ef9a1d45de4f1f21",
+      "name": "LIDER",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "375b1b801ad476e6",
+          "name": "CEF - DPVAT",
+          "managers": [
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "795b8c190e475648",
+          "name": "Líder - Estratégico",
+          "managers": [
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "77a3756f46a0b397",
+          "name": "Líder – AL | CE | PB",
+          "managers": [
+            "Rostand Inácio dos Santos"
+          ]
+        },
+        {
+          "id": "44b611280c2dfb8b",
+          "name": "Líder – PE | RN",
+          "managers": [
+            "Rostand Inácio dos Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9607dfc855d9f7ef",
+      "name": "MAGALU",
+      "manager": "Manoel Paulino",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "719bb38d01f60a0f",
+          "name": "Magalu",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        },
+        {
+          "id": "3392059b3f95f710",
+          "name": "Magalu - Estratégico",
+          "managers": [
+            "Diogo Dantas de Moraes Furtado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0f309f559204a707",
+      "name": "MAPFRE VIDA",
+      "manager": "Camila Rego",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "f16c1a25bfa58a63",
+          "name": "Auto - Mapfre",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        },
+        {
+          "id": "7f07e08662734d6d",
+          "name": "Vida - Mapfre",
+          "managers": [
+            "Camila de Almeida Bastos de Moraes Rêgo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f878d0e9ea58ea42",
+      "name": "MARITIMO E PORTUARIO",
+      "manager": "Igor Zanella",
+      "director": "MANUELA MOURA",
+      "cluster": "Middle",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "bc6539ce83f9b7f6",
+      "name": "MARITIMO E PORTUARIO - NOVO",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "1bab1ca4cf776e59",
+          "name": "Aduaneiro e Tributário",
+          "managers": [
+            "Igor Zanella Andrade Campos",
+            "Ingrid Zanella Andrade Campo"
+          ]
+        },
+        {
+          "id": "361be6b95105dd78",
+          "name": "Marítimo e Portuário",
+          "managers": [
+            "Igor Zanella Andrade Campos",
+            "Ingrid Zanella Andrade Campo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb05bc9caec1830e",
+      "name": "METLIFE",
+      "manager": "Paula Haeckel",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "f9ff9475369a08cb",
+          "name": "Metlife",
+          "managers": [
+            "Paula Haeckel Times de Carvalho Almeida Gomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a332dbc1f4b451cf",
+      "name": "NEGOCIOS INTERNACIONAIS",
+      "manager": "Gabriela Figueiras",
+      "director": "MANUELA MOURA",
+      "cluster": "Consultiva",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "e8454b5ab7b7c311",
+      "name": "OLE CONSIGNADO",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "9d25b3643dd5b7c8",
+          "name": "Olé Consignado",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "a42952361dbcd7a0",
+          "name": "Olé Consignado - Demais",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        },
+        {
+          "id": "10330201cbea033b",
+          "name": "Santander - OrgFis",
+          "managers": [
+            "Suellen Poncell do Nascimento Duarte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12b1cba8e66d4e61",
+      "name": "ONS BAHIA",
+      "manager": "Milena Gila",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "a219f7678919255d",
+      "name": "QUALICORP",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "c9b2b203476d8712",
+          "name": "Saúde - Qualicorp",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "50a45e647dbbd90e",
+      "name": "REC",
+      "manager": "Francisco Lelis",
+      "director": "CARLOS HARTEN",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "55f2bae8efbacf7b",
+          "name": "REC - Diversos",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "d8655c4ba6ef5a03",
+          "name": "REC - Santander NE",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        },
+        {
+          "id": "4257c3482726c453",
+          "name": "REC - Santander NO",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c371bd2fdf716503",
+      "name": "REC, REC",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "fd1d7b282a20de5c",
+          "name": "REC - BA - Diversos",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07da305d5692c0a2",
+      "name": "RECUPERACAO JUDICIAL",
+      "manager": "Francisco Lelis",
+      "director": "CARLOS HARTEN",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": []
+    },
+    {
+      "id": "9f439662ea21c93e",
+      "name": "RECUPERACAO JUDICIAL, REC",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "10bcef9628cc0125",
+          "name": "REC | REJ – Estratégico",
+          "managers": [
+            "Francisco de Assis Lelis de Moura Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9a6715caa080d963",
+      "name": "RESSARCIMENTO",
+      "manager": "Marconi Darce",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Outros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "c4e40cf36c5b1e11",
+          "name": "Alesat",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "1cc9eed90c0e9c01",
+          "name": "Hidrovias do Brasil S.A",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "ccde83075e8c8749",
+          "name": "Ipiranga",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "6932f71e36cefb2e",
+          "name": "Ipiranga - Diversos",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        },
+        {
+          "id": "05b4925666922fbf",
+          "name": "Ressarcimento",
+          "managers": [
+            "Marconi Darce Lúcio Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c87bf5c87454f68c",
+      "name": "SFH",
+      "manager": "Eduardo Fornellos",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "616b20111b228145",
+          "name": "Bradesco - SFH",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        },
+        {
+          "id": "b52674e4f25dffca",
+          "name": "SulAmérica - SFH",
+          "managers": [
+            "Eduardo José de Souza Lima Fornellos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed1b8f590021f557",
+      "name": "SULAMERICA",
+      "manager": "Rostand Santos",
+      "director": "CARLOS HARTEN",
+      "cluster": "Middle",
+      "vertical": "Seguros",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "47f4be136ad982ec",
+          "name": "Auto - SulAmérica",
+          "managers": [
+            "Thiago Pessoa Rocha"
+          ]
+        },
+        {
+          "id": "6b5b13f612392493",
+          "name": "Saúde - SulAmérica",
+          "managers": [
+            "Rostand Inácio dos Santos",
+            "Thiago Pessoa Rocha"
+          ]
+        },
+        {
+          "id": "9e450170eee62149",
+          "name": "Saúde - SulAmérica - NULIM",
+          "managers": [
+            "Rostand Inácio dos Santos",
+            "Thiago Pessoa Rocha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6ea50202636d7983",
+      "name": "TIM",
+      "manager": "Christianne Gomes",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Massificado Diversos",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "22079629c8aa880f",
+          "name": "TIM - BASE - Justiça Comum",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "19f7e4d0a6be35ca",
+          "name": "TIM - Procon",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "60f7b8c2ab3b506b",
+          "name": "TIM - TCO - Justiça Comum",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "0a03f7ad4ad34950",
+          "name": "TIM - TMG - Justiça Comum",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "07562116337a5d65",
+          "name": "TIM - TNE - Justiça Comum",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "7996f6514796fe70",
+          "name": "TIM - TNO - Justiça comum",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "296bb8cae77a1827",
+          "name": "TIM JEC - BASE",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "6414253f47593bb3",
+          "name": "TIM JEC - TCO",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "520f9886cc91285e",
+          "name": "TIM JEC - TMG",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "6d9caf804810d9b0",
+          "name": "TIM JEC - TNE",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        },
+        {
+          "id": "7b67cfe9f13e7581",
+          "name": "TIM JEC - TNO",
+          "managers": [
+            "Christianne Gomes da Rocha",
+            "Maria Eduarda Oliveira Alcantara"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bed8bbf547a53d40",
+      "name": "TRABALHISTA",
+      "manager": "Amanda Ferreira",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "4f799c31293ee16d",
+          "name": "Arcos Dourados",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        },
+        {
+          "id": "d937f63c63cae278",
+          "name": "Solar Bebidas",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        },
+        {
+          "id": "b8f6ab3bf318d46d",
+          "name": "Trabalhista - Diversos",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        },
+        {
+          "id": "7827765f04285218",
+          "name": "Trabalhista - Diversos Estratégico",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1c3cb0f01a6176b1",
+      "name": "TRABALHISTA 2",
+      "manager": "Amanda Ferreira",
+      "director": "BRUNO CAVALCANTI",
+      "cluster": "Especializadas/Estratégicas",
+      "vertical": "Corporativo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "119bb996de9fcd3a",
+          "name": "Banco Safra Trabalhista",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        },
+        {
+          "id": "ed1db6977c1cc326",
+          "name": "C6 Trabalhista - Terceirizados",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        },
+        {
+          "id": "eda78b8a5aa01af9",
+          "name": "Santander Trabalhista",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        },
+        {
+          "id": "48d21672320cff37",
+          "name": "Santander Trabalhista - Estratégico",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d92298e6d5933a3b",
+      "name": "TRABbelomonte",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "04f0a9b25753d986",
+          "name": "Trabalhista - Belo Monte",
+          "managers": [
+            "Amanda Ferreira Matias Ferraz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10461037f1a98236",
+      "name": "UNIMED SEGURADORA",
+      "manager": "",
+      "director": "",
+      "cluster": "",
+      "vertical": "",
+      "inCluster": false,
+      "cells": [
+        {
+          "id": "d4c95cddcc01550f",
+          "name": "Saúde – Unimed",
+          "managers": [
+            "Paula Haeckel Times de Carvalho Almeida Gomes"
+          ]
+        },
+        {
+          "id": "3ebca15f1e10cbd6",
+          "name": "Vida, Cap. e Prev. – Unimed",
+          "managers": [
+            "Paula Haeckel Times de Carvalho Almeida Gomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33450bac7b1032c2",
+      "name": "WHIRLPOOL",
+      "manager": "Catarina Alves",
+      "director": "CARLOS HARTEN",
+      "cluster": "Contencioso Massificado",
+      "vertical": "Varejo",
+      "inCluster": true,
+      "cells": [
+        {
+          "id": "e5d6b5acbe397099",
+          "name": "Asus",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        },
+        {
+          "id": "46b8f309e21a00bc",
+          "name": "Whirlpool",
+          "managers": [
+            "Catarina Bezerra Alves"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "centers": 88,
+    "cells": 225,
+    "missingDirector": 18,
+    "missingCells": 13
+  }
+}

@@ -1,0 +1,98 @@
+QCA ATOS E AUTOMAÇÃO — VERSÃO 2.1
+Centros de Custo, células, gestores e diretoria. Leitura local de prints sem Tesseract.
+
+ATUALIZAR A VERSÃO ANTERIOR
+1. Abra a versão anterior e clique em Salvar backup.
+2. Feche a janela do aplicativo anterior para liberar a porta 8765.
+3. Extraia todo o ZIP atualizado em uma pasta nova.
+4. Execute INSTALAR.bat desta versão. A instalação inicial precisa de internet para baixar as dependências e os modelos do leitor de imagens.
+5. Abra INICIAR.bat. Use o mesmo navegador e perfil da versão anterior.
+6. Os dados já salvos no navegador continuam acessíveis. Se necessário, use Restaurar backup.
+7. Registros antigos ficam sem vínculo organizacional. Clique em Editar para escolher o Centro de Custo e a célula corretos. Nenhum vínculo anterior é presumido automaticamente.
+
+PRIMEIRO USO NO WINDOWS
+É necessário Python 3.12 ou 3.11 de 64 bits. Python 3.12 é a versão utilizada nos testes de código; o launcher “py” deve estar disponível. Python 3.13 e 3.14 não são aceitos pelo pacote de OCR desta versão.
+O instalador procura primeiro Python 3.12 e depois 3.11. Cria .venv-qca, separado de .venv da versão anterior, sem remover ou alterar esse ambiente anterior.
+Se não houver uma versão compatível, execute no PowerShell:
+winget install --id Python.Python.3.12 --exact --architecture x64
+Após instalar, feche a janela antiga e execute INSTALAR.bat novamente. O Python 3.14 já instalado pode ser mantido.
+Referência do pacote: https://github.com/microsoft/winget-pkgs/tree/master/manifests/p/Python/Python/3/12
+A instalação só indica sucesso depois de verificar as dependências e inicializar os modelos de OCR.
+- Execute INSTALAR.bat uma vez.
+- Execute INICIAR.bat para abrir http://127.0.0.1:8765 no navegador.
+- Mantenha a janela do aplicativo aberta durante o uso. Feche-a para encerrar.
+Não é necessário instalar Tesseract, criar chave de API ou contratar serviço de IA.
+O leitor é RapidOCR/ONNX Runtime. Seus pacotes e modelos são baixados na instalação. Após instalar, a aplicação processa os prints localmente sem enviar imagens a serviços externos.
+Se a instalação falhar ou surgir mensagem de DLL no Windows, envie o erro para análise. Não desabilite controles de segurança do computador.
+
+IMPORTAR UM PRINT
+1. Clique em Importar print ou planilha e selecione PNG, JPEG ou WebP. Também é possível colar a imagem com Ctrl+V na tela principal.
+2. Envie a tabela Detalhamento dos Atos completa, com os cabeçalhos e a linha Total. O leitor foi ajustado a esse layout. Limites: 10 MB e 20 megapixels.
+   Atos sem automação relevante para a análise são descartados automaticamente da leitura (print e planilha): PA de Recurso da Parte Contrária, PA'S Preenchidas - Outras, Encaminhados para Negociação, Obrigações Comprovadas, Garantias Cadastradas, PA de Procedência, Audiências Realizadas, Encerramentos e Obrigações Notificadas. Os totais do BI informados na revisão são ajustados automaticamente para refletir apenas os atos exibidos. Em prints onde o leitor distorcer a grafia de um desses atos, a linha pode continuar aparecendo na revisão; remova-a manualmente antes de confirmar.
+3. Aguarde a leitura local. O tempo varia com o computador e a quantidade de linhas da tabela, de alguns segundos a cerca de meio minuto.
+4. Selecione o Centro de Custo e a célula / abrangência correspondentes ao filtro usado no BI.
+5. Informe o mês. A aplicação não presume equipe ou período pela imagem.
+6. Confira os nomes e os números ao lado do print. OCR pode trocar letras, perder números ou linhas.
+7. Confira os três totais do BI: manual, automatizado e geral.
+8. Se necessário, use Completar por cálculo. Apenas quando uma das três quantidades estiver ausente e as outras duas estiverem preenchidas, a aplicação completa pela relação Manual + Automatizado = Total. Os valores calculados ficam identificados na tabela. Eles NÃO são tratados como valores extraídos da imagem.
+9. Marque a confirmação da revisão e salve para gerar os gráficos.
+A aplicação exige soma correta em cada linha e reconciliação com os totais informados. Uma célula sem nenhum número no print ou na planilha é preenchida com 0 automaticamente, pois representa ausência real de valor na fonte. Já um número que o leitor não conseguiu reconhecer com segurança (texto ilegível ou ambíguo) continua em branco para revisão manual, e não é convertido silenciosamente em zero.
+
+CENTRO DE CUSTO E CÉLULA
+O campo Célula mostra somente os vínculos do Centro de Custo selecionado.
+Use Consolidado de todo o Centro de Custo somente quando o print representar esse conjunto inteiro. Para um print filtrado por célula, escolha a célula correspondente.
+O formulário exibe automaticamente:
+- Gestor do Centro de Custo e diretoria, conforme a base de clusters.
+- Gestor(es) da célula, conforme a base de usuários gestores.
+- Cluster e vertical, quando informados.
+Gestores do CC e da célula são exibidos separadamente. Nomes abreviados e completos não foram unificados por suposição.
+A aplicação bloqueia importações duplicadas do mesmo CC/célula/mês e a sobreposição entre consolidado do CC e células no mesmo mês. Para acrescentar linhas ao mesmo recorte, edite a importação existente.
+Os filtros de célula não rateiam um consolidado de CC. Só mostram importações explicitamente vinculadas àquela célula.
+
+BASE ORGANIZACIONAL EMBUTIDA
+Fontes:
+- Centro de Custo por Cluster Geral.xlsx, aba Plan1, colunas A:E.
+- USUÁRIOS_GESTORES_2026 2.xlsx, aba Sheet 1, colunas Status, Nome, Escritório/Célula e Centro de Custo.
+O cruzamento normaliza apenas caixa, espaços e acentos. Nomes semelhantes ou textos compostos foram mantidos como constam na fonte, sem ligações aproximadas.
+Resultado: 88 Centros de Custo e 225 vínculos CC/célula. Há 18 Centros de Custo sem registro na base de clusters e 13 sem células na base de gestores. Campos ausentes aparecem como não informados.
+A contagem utiliza as linhas de dados da planilha de clusters, não os quadros de resumo laterais.
+As 253 linhas de vínculos da base de gestores estão marcadas como Ativo. Repetições do mesmo gestor para a mesma célula foram deduplicadas; vários gestores distintos para uma célula foram preservados.
+Não foram incluídos IDs de usuários, pois não são necessários para a seleção.
+Consulte os vínculos na seção Consultar Centros de Custo, células e responsáveis. A base é um retrato das planilhas fornecidas, sem atualização automática por sistema externo.
+O cadastro normalizado fica em data/organization.json. Cada importação armazena os responsáveis que estavam associados no momento de sua confirmação.
+
+GRÁFICOS E REUNIÕES
+Sinalização visual: a cor âmbar identifica valores manuais e a cor azul identifica valores automatizados, de forma consistente nos indicadores do topo, nas barras, na legenda e na tabela de detalhamento. Um selo tracejado "calculado" marca, célula a célula, os valores completados pela relação Manual + Automatizado = Total (via Completar por cálculo). Esse selo aparece tanto na tela de revisão quanto no painel final, e some automaticamente se o valor for depois editado manualmente.
+Filtros por Centro de Custo, célula, diretoria, gestor, período e atos.
+Taxa de automação = soma dos atos automatizados / soma do total × 100.
+Não há média simples de percentuais. % do recorte usa somente os atos selecionados.
+Os insights são descritivos: participação da automação, concentração manual, maior volume automático e atos sem automação registrada. Volume manual não equivale automaticamente a oportunidade viável, horas poupadas ou economia financeira.
+Compare períodos com a mesma cobertura de CCs, células e atos.
+No modo apresentação, use Esc ou Sair da apresentação para voltar.
+Para PDF, clique em Imprimir / PDF e selecione Salvar como PDF no navegador. Habilite gráficos de fundo.
+
+BACKUP E DADOS ANTERIORES
+Os dados ficam no armazenamento local do navegador, neste computador e no endereço http://127.0.0.1:8765. Mudar navegador/perfil ou limpar o armazenamento remove o acesso a esses registros, salvo se houver backup.
+Salvar backup exporta um JSON com os dados e vínculos organizacionais das importações. Restaurar backup substitui os dados atuais mediante confirmação.
+Prints importados não são persistidos nem incluídos no backup. Mantenha as imagens originais para referência.
+O exemplo original acompanha o projeto, identificado como exemplo e sem Centro de Custo informado. Não é somado a dados reais no mesmo recorte.
+
+PLANILHAS DE ATOS OPCIONAIS
+CSV ou XLSX, primeira aba e primeira linha como cabeçalho:
+Ato;Atos Manuais;Atos Automatizados;Total
+Use quantidades inteiras não negativas. Total pode ser omitido e será calculado. A linha Total, se existir, serve apenas para conferência.
+Uma importação representa um único CC/célula/mês, escolhido na revisão.
+As duas planilhas organizacionais já foram incorporadas; não é necessário importá-las como dados de atos.
+
+EXECUTÁVEL OPCIONAL
+GERAR_EXE.bat deve ser executado no Windows depois da instalação.
+Ele utiliza PyInstaller, inclui os modelos de OCR e gera dist\QCA_Atos.exe.
+Esta entrega contém código e scripts. O executável Windows não foi compilado nem testado neste ambiente. A aplicação ainda requer verificação no PC de destino.
+Referências técnicas: https://github.com/RapidAI/RapidOCR e https://pyinstaller.org/en/latest/
+
+VALIDAÇÃO DESTA VERSÃO
+- Catálogo reconciliado com as duas planilhas e casos de vários gestores preservados.
+- Leitor novo testado com o print fornecido: 25 atos e totais de 4.371 manuais, 7.491 automatizados e 11.862 no total. Alguns campos ficaram pendentes e exigem revisão; cálculo explícito dos ausentes reconciliou o exemplo.
+- Testes de seleção dependente, metadados, dados ausentes, persistência, filtros, percentuais, isolamento do exemplo e bloqueio de sobreposição concluídos em DOM simulado.
+- Testes de API local, arquivos CSV/XLSX e backup legado.
+- Não foi possível fazer inspeção visual em navegador gráfico neste ambiente. Execução Windows e empacotamento .exe não foram testados.

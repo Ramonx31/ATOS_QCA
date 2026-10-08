@@ -1,0 +1,105 @@
+{
+  "id": "sample",
+  "team": "Equipe não informada (exemplo)",
+  "month": "2026-09",
+  "source": "Print fornecido · conferido",
+  "example": true,
+  "rows": [
+    {
+      "ato": "PA de Sessão de Julgamento",
+      "manual": 0,
+      "auto": 159,
+      "total": 159
+    },
+    {
+      "ato": "Publicação com Providência (Sem Agendamento)",
+      "manual": 1,
+      "auto": 2456,
+      "total": 2457
+    },
+    {
+      "ato": "Publicação com Providência",
+      "manual": 1,
+      "auto": 1952,
+      "total": 1953
+    },
+    {
+      "ato": "PA de Ata de Audiência",
+      "manual": 1,
+      "auto": 309,
+      "total": 310
+    },
+    {
+      "ato": "Cadastros Revisados",
+      "manual": 7,
+      "auto": 525,
+      "total": 532
+    },
+    {
+      "ato": "PA de Extinção",
+      "manual": 5,
+      "auto": 198,
+      "total": 203
+    },
+    {
+      "ato": "PA de Improcedência",
+      "manual": 12,
+      "auto": 209,
+      "total": 221
+    },
+    {
+      "ato": "Cadastros",
+      "manual": 42,
+      "auto": 425,
+      "total": 467
+    },
+    {
+      "ato": "PA de Homologação de Acordo",
+      "manual": 2,
+      "auto": 17,
+      "total": 19
+    },
+    {
+      "ato": "PA de Audiência Designada",
+      "manual": 62,
+      "auto": 80,
+      "total": 142
+    },
+    {
+      "ato": "Prazos Revisados",
+      "manual": 290,
+      "auto": 367,
+      "total": 657
+    },
+    {
+      "ato": "Prazos Elaborados",
+      "manual": 706,
+      "auto": 429,
+      "total": 1135
+    },
+    {
+      "ato": "Prazos Protocolados",
+      "manual": 852,
+      "auto": 266,
+      "total": 1118
+    },
+    {
+      "ato": "Publicações Vinculadas",
+      "manual": 104,
+      "auto": 23,
+      "total": 127
+    },
+    {
+      "ato": "Orientações Enviadas",
+      "manual": 273,
+      "auto": 0,
+      "total": 273
+    },
+    {
+      "ato": "PA de Acordo",
+      "manual": 3,
+      "auto": 0,
+      "total": 3
+    }
+  ]
+}
