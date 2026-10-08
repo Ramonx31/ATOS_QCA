@@ -32,18 +32,25 @@ EXCLUDED_ATOS = {norm(a) for a in [
     "Obrigações Notificadas",
 ]}
 
-_EXCLUDED_CLEAN = {k.replace("'", "").replace("’", "") for k in EXCLUDED_ATOS}
+def _dehyphen(s):
+    # Remove espaços em volta de hífen antes de comparar. Diferente de tolerar ruído de
+    # leitura de caracteres (que pode confundir atos distintos), a presença ou ausência de
+    # espaço ao redor de um hífen é só formatação e não muda o nome do ato nem pode causar
+    # ambiguidade com outro ato da lista.
+    return re.sub(r'\s*-\s*', '-', s)
+
+_EXCLUDED_CLEAN = {_dehyphen(k.replace("'", "").replace("’", "")) for k in EXCLUDED_ATOS}
 
 def is_excluded_ato(name):
-    # Comparação exata após normalizar acento, caixa, espaços e apóstrofo (reto ou curvo).
-    # Deliberadamente não usa correspondência aproximada (similaridade ou distância de
-    # edição): nomes de ato parecidos podem ter sentido oposto (ex.: "Procedência" x
-    # "Improcedência"), então tolerar ruído de OCR de forma genérica arrisca excluir por
-    # engano um ato que deveria aparecer no painel.
+    # Comparação exata após normalizar acento, caixa, espaços, apóstrofo (reto ou curvo) e
+    # espaçamento ao redor de hífen. Deliberadamente não usa correspondência aproximada
+    # (similaridade ou distância de edição) para o restante do texto: nomes de ato parecidos
+    # podem ter sentido oposto (ex.: "Procedência" x "Improcedência"), então tolerar ruído de
+    # OCR de forma genérica arrisca excluir por engano um ato que deveria aparecer no painel.
     # Quando o OCR distorce a grafia de um ato da lista de exclusão a ponto de não bater
     # exatamente, a linha continua aparecendo na tela de revisão (com nome visivelmente
     # estranho) para o usuário corrigir ou excluir manualmente antes de salvar.
-    cleaned = norm(name).replace("'", "").replace("’", "")
+    cleaned = _dehyphen(norm(name).replace("'", "").replace("’", ""))
     return cleaned in _EXCLUDED_CLEAN
 
 OCR_ENGINE = None
@@ -132,9 +139,14 @@ def extract_image(raw):
             # intra_op_num_threads=4 dá paralelismo moderado dentro de cada operação sem
             # saturar a CPU, o que se mostrou mais rápido e estável do que threads simétricos
             # (2/2) ou automáticos (-1/-1) nos testes realizados.
-            # det_limit_side_len menor (1024, abaixo do antigo 2048) reduz bastante o custo da
-            # etapa de detecção, que escala com a área da imagem redimensionada.
-            OCR_ENGINE=RapidOCR(intra_op_num_threads=4,inter_op_num_threads=1,det_limit_side_len=1024)
+            # det_limit_side_len=2048: valores menores (ex.: 1024) aceleram a detecção, mas
+            # geram recortes de texto menores que o reconhecedor amplia com mais perda de
+            # nitidez, piorando a leitura de nomes de ato (ex.: "Obrigações" lido como
+            # "Obrigages"). Isso causava inconsistência entre o print e o painel: um ato que
+            # deveria ser excluído da análise (ver EXCLUDED_ATOS) não era reconhecido com a
+            # grafia exata e acabava aparecendo no painel. A fidelidade da leitura em relação
+            # ao print tem prioridade sobre o tempo de leitura.
+            OCR_ENGINE=RapidOCR(intra_op_num_threads=4,inter_op_num_threads=1,det_limit_side_len=2048)
         # use_cls=False desativa a classificação de ângulo do texto: prints de tela sempre vêm
         # na orientação correta, então essa etapa só consome tempo sem necessidade.
         result,_=OCR_ENGINE(pixels,use_cls=False)

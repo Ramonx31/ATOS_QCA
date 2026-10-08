@@ -29,7 +29,7 @@ IMPORTAR UM PRINT
 1. Clique em Importar print ou planilha e selecione PNG, JPEG ou WebP. Também é possível colar a imagem com Ctrl+V na tela principal.
 2. Envie a tabela Detalhamento dos Atos completa, com os cabeçalhos e a linha Total. O leitor foi ajustado a esse layout. Limites: 10 MB e 20 megapixels.
    Atos sem automação relevante para a análise são descartados automaticamente da leitura (print e planilha): PA de Recurso da Parte Contrária, PA'S Preenchidas - Outras, Encaminhados para Negociação, Obrigações Comprovadas, Garantias Cadastradas, PA de Procedência, Audiências Realizadas, Encerramentos e Obrigações Notificadas. Os totais do BI informados na revisão são ajustados automaticamente para refletir apenas os atos exibidos. Em prints onde o leitor distorcer a grafia de um desses atos, a linha pode continuar aparecendo na revisão; remova-a manualmente antes de confirmar.
-3. Aguarde a leitura local. O tempo varia com o computador e a quantidade de linhas da tabela, de alguns segundos a cerca de meio minuto.
+3. Aguarde a leitura local. O tempo varia com o computador e a quantidade de linhas da tabela, podendo levar de alguns segundos a cerca de um minuto. O leitor prioriza fidelidade aos valores do print em vez de velocidade.
 4. Selecione o Centro de Custo e a célula / abrangência correspondentes ao filtro usado no BI.
 5. Informe o mês. A aplicação não presume equipe ou período pela imagem.
 6. Confira os nomes e os números ao lado do print. OCR pode trocar letras, perder números ou linhas.

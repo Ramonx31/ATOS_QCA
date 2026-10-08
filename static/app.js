@@ -139,7 +139,7 @@ async function boot(){
   try{const saved=JSON.parse(localStorage.getItem(KEY)||'[]');if(validDB(saved))db=saved;else toast('Dados locais inválidos. Restaure um backup válido.')}catch{toast('Não foi possível ler os dados locais.')}
   $('orgStats').textContent=`${org.stats.centers} Centros de Custo · ${org.stats.cells} vínculos de células · ${org.stats.missingDirector} CCs sem diretoria · ${org.stats.missingCells} CCs sem células. Fontes: ${org.sources.join(' e ')}. Nomes semelhantes não foram unidos automaticamente.`;
   refresh();renderCatalog();$('importBtn').disabled=false;$('newManual').disabled=false;
-  const h=await(await fetch('/health')).json();$('status').textContent=h.ocr?'Leitura local de prints disponível, sem Tesseract. Anexe a tabela completa ou cole a imagem com Ctrl+V. A leitura pode levar de alguns segundos a cerca de meio minuto, dependendo do computador e da quantidade de linhas.':'Execute INSTALAR.bat desta versão para habilitar o novo leitor de prints. Não é necessário instalar Tesseract. O preenchimento manual já está disponível.';
+  const h=await(await fetch('/health')).json();$('status').textContent=h.ocr?'Leitura local de prints disponível, sem Tesseract. Anexe a tabela completa ou cole a imagem com Ctrl+V. A leitura prioriza fidelidade aos valores do print e pode levar até cerca de um minuto, dependendo do computador e da quantidade de linhas.':'Execute INSTALAR.bat desta versão para habilitar o novo leitor de prints. Não é necessário instalar Tesseract. O preenchimento manual já está disponível.';
  }catch{$('status').textContent='Não foi possível carregar a base organizacional. Feche a versão anterior e abra o INICIAR.bat desta versão.'}
 }
 boot();
